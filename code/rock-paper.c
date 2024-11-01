@@ -1,4 +1,7 @@
 //Code here
+#include<stdio.h>
+int main()
+{
 print(" ____                    __          ____                                     ____                                                       
 /\  _`\                 /\ \        /\  _`\                                  /\  _`\           __                                        
 \ \ \L\ \    ___     ___\ \ \/'\    \ \ \L\ \ __     _____      __   _ __    \ \,\L\_\    ___ /\_\    ____    ____    ___   _ __   ____  
@@ -11,3 +14,4 @@ print(" ____                    __          ____                                
 printf(""); //print rock
 printf(""); //print paper
 printf(""); //print scissors
+}
