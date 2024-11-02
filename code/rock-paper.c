@@ -25,5 +25,22 @@ int main() {
 
     
     scanf("%d", &choice);
+    switch(choice)
+    {
+	case 1:
+	printf("You chose Rock\n");
+	break;
+
+	case 2:
+	printf("You chose Paper\n");
+	break;
+
+	case 3:
+	printf("You chose Scissors\n");
+	break;
+
+	default:
+	break;
+    }
     return 0;
 }
