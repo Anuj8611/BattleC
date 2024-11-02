@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main() {
+    int choice;
     system("cls");
     printf("⠀⠀⠀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀\n");
     printf("⠀⢀⣠⢋⡀⠔⠀⠉⠲⢤⢤⡀⠀⠀⠀⠀⠀⠀⠀⢀⠜⠁⠀⣸           $$$$$$$\\             $$\\     $$\\     $$\\                  $$$$$$\\\n");
@@ -17,7 +18,12 @@ int main() {
     printf("⠀⠀⠀⠀⠈⠙⠒⠤⠔⠒⠉⠑⠢⢄⡀⢨⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("\n");
-    printf("Rock Paper Scissors Game made in C. Make your move wisely!");
+    printf("Rock Paper Scissors Game made in C. Make your move wisely! \n");
+    printf("1 for Rock\n");
+    printf("2 for Paper\n");
+    printf("3 for Scissors\n\n");
 
+    
+    scanf("%d", &choice);
     return 0;
 }
