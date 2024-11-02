@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
+    system("cls");
     printf("⠀⠀⠀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀\n");
     printf("⠀⢀⣠⢋⡀⠔⠀⠉⠲⢤⢤⡀⠀⠀⠀⠀⠀⠀⠀⢀⠜⠁⠀⣸           $$$$$$$\\             $$\\     $$\\     $$\\                  $$$$$$\\\n");
     printf("⡞⠁⠈⠀⠀⠀⠀⢠⠤⠌⣇⢱⢸⠉⠉⢳⠀⠀⡠⠋⠀⠀⡔⡡⠔⠒⠲⡄       $$  __$$\\            $$ |    $$ |    $$ |                $$  __$$\\\n");
@@ -14,6 +16,8 @@ int main() {
     printf("⠀⠀⠀⠳⣄⠀⠀⠀⠀⣀⡀⠀⠀⠉⠲⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠈⠙⠒⠤⠔⠒⠉⠑⠢⢄⡀⢨⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
     printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+    printf("\n");
+    printf("Rock Paper Scissors Game made in C. Make your move wisely!");
 
     return 0;
 }
