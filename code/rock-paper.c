@@ -3,7 +3,7 @@
 #include<time.h>
 #include<windows.h>
 
-void setColor(int textColor, int bgColor) {
+void setColor(int textColor, int bgColor) {  
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), textColor | (bgColor << 4));
 }
 
