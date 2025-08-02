@@ -1,6 +1,9 @@
 # 🎮 BattleC ( Rock Paper Scissors – C Console Game )
 BattleC is a lightwweight fun colorful rock paper scissors game written in C, uses ASCII art and windows console colors. Make your move wisely! 
 
+
+![Screenshot](https://github.com/Anuj8611/BattleC/blob/main/images/Screenshot%20(3).png)
+
 <br>
 
 
