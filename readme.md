@@ -38,10 +38,14 @@ Run the compiled executable.
 
 Enter your choice:
 
-0 for Rock
-
-1 for Paper
-
-2 for Scissors
+- 0 for Rock
+- 1 for Paper
+- 2 for Scissors
 
 Watch the result, with ASCII art for each move!
+
+<br>
+
+## 🧑‍💻 Author
+Anuj Gaur
+(Created with ❤️ using C and ASCII art)
